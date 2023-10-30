@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Portfolio Pioneers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/favicon.ico" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="Images/Asset 1.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+        <div class="text-box">
+            <h1>Bridging Dreams to Reality,<br> One Portfolio Pioneered</h1>
+            <p>Your gateway to personalized portfolios that shine a spotlight on your unique skills and achievements,<br> connecting talent with opportunity.</p>
+            <a href="contact.html" class="hero-btn">Fiil The Form Now</a>
+        </div>
+    </section>
+    <section class="services">
+        <h1>What we Offer</h1>
+
+        <div class="row">
+            <div class="services-col">
+                <h3>Internship Oppurtunities</h3>
+                <p> Our Internship Opportunities service is designed to connect aspiring professionals like you with valuable hands-on experience in your field of interest. We partner with a network of reputable companies, offering a wide range of internship opportunities that match your skills, interests, and career goals.Take the first step toward building a solid foundation for your future career with Portfolio Pioneers.</p>
+            </div>
+            <div class="services-col">
+                <h3>Customized portfolios</h3>
+                <p>Our Customized Portfolios service is dedicated to showcasing your academic achievements and professional potential. We work closely with you to create a visually appealing and compelling portfolio that makes a lasting impression on potential employers. Elevate your professional profile with Portfolio Pioneers.</p>
+            </div>
+            <div class="services-col">
+                <h3>Job Oppurtunities</h3>
+                <p>At Portfolio Pioneers, we're committed to helping you find Job Opportunities that match your profile. Our extensive network of partner companies spans various industries, ensuring you have access to a diverse range of job openings. Let us be your bridge to professional success by connecting you with the right employment opportunities.</p>
+            </div>
+        </div> 
+    </section>
+    <section class="perks">
+        <h1>Why Choose Us?</h1>
+
+        <div class="row">
+            <div class="perks-col">
+                <img src="Images/business-strategy-success-target-goals.jpg"
+                <h3>Tailored Excellence</h3>
+                <p>We specialize in crafting customized portfolios that not only showcase your unique skills and achievements but also incorporate creative design elements to make your portfolio visually captivating.</p>
+            </div>
+            <div class="perks-col">
+                <img src="Images/double-exposure-image-business-finance.jpg"
+                <h3>Industry Partnerships</h3>
+                <p> We collaborate with leading companies, offering a direct pathway for your portfolio to land in the hands of potential employers, increasing your chances of securing the job you desire.</p>
+            </div>
+            <div class="perks-col">
+                <img src="Images/man-taking-e-leraning-courses.jpg"
+                <h3>Effortless Transition</h3>
+                <p>We simplify the transition from student to professional by bridging the gap between your academic achievements and career aspirations, making your journey smoother, more successful, and visually appealing.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h1>Testimonials</h1>
+        <p> We're honored to be part of your journey and are dedicated to delivering a delightful experience from start to finish.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <div>
+                    <p> "Portfolio Pioneers transformed my academic achievements into a stunning portfolio that landed me my dream job. Their expertise and attention to detail are unparalleled."</p>
+                    <h3>Samarth Sarnopant</h3> 
+                          
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <div>
+                    <p> "I can't thank Portfolio Pioneers enough! Their creative touch made my portfolio stand out, and their industry connections led to multiple job offers. A game-changer!"</p>
+                    <h3>Pushkar Patil</h3>  
+                           
+                </div>
+            </div>
+        </div>
+       
+
+    </section>
+    <section class="cta">
+        <h1>Your Customized Portfolio is awaiting you...</h1>
+        <a href="contact.html" class="hero-btn">Get Started</a>
+    </section>
+    <section class="footer">
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/portfolio-pioneers-38839a294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            <a class="footer-link" href="https://x.com/Pioneers_01?t=gU8-DMpSkIcgMNOBFEIyxA&s=08" target="_blank">Twitter</a>
+            <a class="footer-link" href="https://instagram.com/port.foliopioneers?igshid=MmU2YjMzNjRlOQ==" target="_blank">Instagram</a>
+            <p>Made By Pranav, Umang, Aahil, Naman</p>
+
+        </div>
+    </section>
+<!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  </body>
+
+</html>

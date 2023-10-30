@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Portfolio Pioneers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Images/favicon.ico" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Images/Asset 1.png"</a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>Unlocking Potential, Showcasing Excellence</h1>
+          <p>
+            Welcome to Portfolio Pioneers, where we empower students to shape
+            their futures with confidence through the art of personal branding
+            and professional development. We understand that in today's fiercely
+            competitive educational and job markets, standing out is not just a
+            goal; it's a necessity. That's why we've embarked on a mission to
+            provide a valuable and user-friendly platform for students to create
+            personalized CVs/Portfolios that truly set them apart.<br />Our
+            mission at Portfolio Pioneers is clear: to help students unlock
+            their potential and build compelling narratives about their skills,
+            achievements, and experiences. In an era where digital presence
+            matters more than ever, a well-crafted portfolio is not merely a
+            collection of documents; it's a dynamic representation of an
+            individual's journey. It showcases academic accomplishments,
+            extracurricular activities, and personal interests in a structured
+            and visually appealing manner.
+          </p>
+          <a href="contact.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img
+            src="Images/i-think-its-time-expand-shot-group-businesspeople-meeting-office.jpg"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="companies">
+      <h1>Companiess Associated with Us</h1>
+      <p>
+        CodePulse Innovations<br />
+        SecureBit Systems<br />
+        DigitalDreamscape Tech<br />
+        SparkMatrix Solutions<br />
+        PixelHorizon IT<br />
+        NexusWave Technologies<br />
+        TechnoSync Innovations<br />
+        Streamline Software Solutions<br />
+        FusionByte Technologies<br />
+        CodeMomentum Labs<br />
+        VisionTech Innovators
+      </p>
+    </section>
+
+    <section class="footer">
+      <div class="bottom-container">
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/portfolio-pioneers-38839a294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          class="footer-link"
+          href="https://x.com/Pioneers_01?t=gU8-DMpSkIcgMNOBFEIyxA&s=08"
+          target="_blank"
+          >Twitter</a
+        >
+        <a
+          class="footer-link"
+          href="https://instagram.com/port.foliopioneers?igshid=MmU2YjMzNjRlOQ=="
+          target="_blank"
+          >Instagram</a
+        >
+        <p>Made By Pranav, Umang, Aahil, Naman</p>
+      </div>
+    </section>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
